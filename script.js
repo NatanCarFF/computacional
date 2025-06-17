@@ -51,6 +51,65 @@ document.addEventListener('DOMContentLoaded', () => {
                 <li>Deixe esfriar antes de desenformar.</li>
             </ol>
             <p>Se você seguir essas instruções na ordem correta, o resultado esperado (um bolo de chocolate) será alcançado. Cada etapa é uma instrução clara e simples.</p>
+        `,
+        'coleta-de-dados': `
+            <p><strong>Exemplo: Pesquisa de Satisfação do Cliente</strong></p>
+            <p>Uma empresa quer saber o que seus clientes pensam sobre um novo produto. Ela pode <strong>coletar dados</strong> de diversas maneiras:</p>
+            <ul>
+                <li>Formulários online.</li>
+                <li>Pesquisas por telefone.</li>
+                <li>Comentários em redes sociais.</li>
+                <li>Dados de vendas.</li>
+            </ul>
+            <p>Cada um desses métodos fornece informações valiosas para entender a opinião dos clientes.</p>
+        `,
+        'analise-de-dados': `
+            <p><strong>Exemplo: Desempenho de Vendas Mensais</strong></p>
+            <p>Uma loja coleta os dados de vendas de cada mês. Para entender se está indo bem, ela precisa da <strong>análise de dados</strong>:</p>
+            <ul>
+                <li>Calcular o total de vendas por produto.</li>
+                <li>Identificar os produtos mais vendidos.</li>
+                <li>Comparar as vendas do mês atual com as do mês anterior ou do mesmo período no ano passado.</li>
+                <li>Identificar tendências (ex: vendas aumentam em feriados).</li>
+            </ul>
+            <p>Essa análise permite à loja tomar decisões como, por exemplo, qual produto estocar mais ou qual promoção fazer.</p>
+        `,
+        'representacao-de-dados': `
+            <p><strong>Exemplo: Agenda de Contatos no Celular</strong></p>
+            <p>Como você organiza os contatos no seu celular? É um exemplo de <strong>representação de dados</strong>.</p>
+            <ul>
+                <li>Cada contato tem campos específicos: Nome, Telefone, E-mail, Endereço.</li>
+                <li>Eles são geralmente listados em ordem alfabética.</li>
+                <li>Você pode pesquisar por nome.</li>
+            </ul>
+            <p>Essa estrutura padronizada (nome, telefone, etc.) é uma forma de representar os dados de contato, tornando-os fáceis de encontrar e usar.</p>
+        `,
+        automacao: `
+            <p><strong>Exemplo: Robô Aspirador de Pó</strong></p>
+            <p>Um <strong>robô aspirador de pó</strong> é um ótimo exemplo de automação.</p>
+            <ul>
+                <li>Você o programa para limpar a casa em horários específicos.</li>
+                <li>Ele navega pela casa, aspira o chão e retorna à base para carregar, tudo sem sua intervenção direta.</li>
+            </ul>
+            <p>Ele automatiza uma tarefa doméstica, liberando seu tempo para outras atividades.</p>
+        `,
+        paralelismo: `
+            <p><strong>Exemplo: Cozinhar um Jantar Complexo</strong></p>
+            <p>Ao preparar um jantar com vários pratos (ex: arroz, feijão, carne e salada), você usa o <strong>paralelismo</strong>:</p>
+            <ul>
+                <li>Enquanto o arroz cozinha, você pode estar cortando os ingredientes da salada.</li>
+                <li>Ao mesmo tempo, a carne pode estar fritando.</li>
+            </ul>
+            <p>Se você fizesse cada coisa uma de cada vez (primeiro o arroz, depois a salada, depois a carne), levaria muito mais tempo. O paralelismo permite que várias tarefas aconteçam ao mesmo tempo.</p>
+        `,
+        simulacao: `
+            <p><strong>Exemplo: Teste de Colisão de Carros (Virtual)</strong></p>
+            <p>Antes de fabricar um carro e fazer um teste de colisão real (que é caro e destrutivo), as montadoras usam <strong>simulações</strong> em computadores.</p>
+            <ul>
+                <li>Eles criam um modelo virtual do carro e do ambiente de colisão.</li>
+                <li>Rodam a simulação para ver como o carro se deforma, como os airbags se comportam, etc.</li>
+            </ul>
+            <p>Isso permite que eles testem diferentes designs e materiais de forma segura, rápida e econômica, antes de produzir um protótipo físico.</p>
         `
     };
 

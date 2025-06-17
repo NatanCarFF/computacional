@@ -1,3 +1,4 @@
+/* O código CSS permanece o mesmo do exemplo anterior */
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
@@ -29,7 +30,7 @@ main {
     text-align: justify;
 }
 
-.pillar-section {
+.pillar-section, .additional-concepts { /* Adicionado .additional-concepts aqui */
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     gap: 20px;
@@ -46,13 +47,13 @@ main {
     flex-direction: column;
 }
 
-.pillar-card h2 {
+.pillar-card h2, .pillar-card h3 { /* Adicionado h3 aqui */
     color: #388e3c;
     margin-top: 0;
 }
 
 .pillar-card p {
-    flex-grow: 1; /* Para que todos os parágrafos tenham a mesma altura */
+    flex-grow: 1;
     text-align: justify;
 }
 
@@ -80,11 +81,11 @@ main {
     border-radius: 5px;
     font-size: 0.9em;
     color: #555;
-    display: none; /* Escondido por padrão */
+    display: none;
 }
 
 .example-content.active {
-    display: block; /* Exibido quando ativo */
+    display: block;
 }
 
 footer {
